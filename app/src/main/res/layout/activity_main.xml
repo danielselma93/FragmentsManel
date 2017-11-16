@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.dani.fragmentsmanel_.MainActivity"
+
+    >
+
+
+    <fragment
+        android:id="@+id/fragmentEstatic"
+        android:name="com.example.dani.fragmentsmanel_.fragmentEstatic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/verde" />
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <FrameLayout
+            android:id="@+id/framearriba"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/amarillo"
+            >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/search_edit_frameabajo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/naranja"
+            >
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
